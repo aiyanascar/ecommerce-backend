@@ -1,7 +1,7 @@
-const Category = require('./Category.js');
-const Product = require('./Product.js');
-const Tag = require('./Tag.js');
-const ProductTag = require('./ProductTag.js');
+const Category = require('Category.js');
+const Product = require('Product.js');
+const Tag = require('Tag.js');
+const ProductTag = require('ProductTag.js');
 
 Product.belongsTo(Category, {
   foreignKey: 'category_id',
